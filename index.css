@@ -1,0 +1,222 @@
+@media only screen and (min-width: 600px) {
+     
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    color: #282828;
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+header, main {
+   min-width: 600px;
+   margin: auto;
+}
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+    }
+
+nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 20px 15px;
+    align-items: center;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav #sidemenu {
+    width: 350px;
+    background-color: whitesmoke;
+    padding: 60px 30px;
+    position: fixed;
+    top: -16px;
+    right: 0;
+    color: #282828;
+    z-index: 2;
+    transition: top 0.5s;
+    height: 20vh;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    
+}
+
+#sidemenu li {
+    margin-bottom: 40px;
+}
+
+.btn {
+    border: 2px solid #cd6858;
+    padding: 10px 20px;
+    background-color: #cd6858;
+    margin-top: 10px;
+    border-radius: 15px;
+    text-shadow: none;
+    
+}
+
+.icon {
+    width: 30px;
+}
+
+.align-right {
+    margin-left: auto;
+    width: 45px;
+}
+
+.close {
+    position: absolute;
+    top: 6px;
+    left: 9px;
+    width: 45px;
+}
+
+#closeX:hover,
+#closeX:focus,
+#open:hover,
+#open:focus {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.item {
+    position: relative;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+.img-banner {
+    background-color: #cd6858;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.5rem;
+}
+
+.caption {
+    display: flex;
+    margin: 30px 25px;
+    gap: 20px;
+    align-items: center;
+}
+
+button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 0 45px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #cd6858;
+    overflow: hidden;
+    border: 2px solid #d90429;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: auto;
+  }
+  button:hover {
+    color: #cd6858;
+  }
+  button:hover:after {
+    width: 100%;
+  }
+  button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #fff;
+  }
+
+
+.chatbox-bg {
+    background-color: #dda15e;
+    width: 50px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    position: fixed;
+    right: 4px;
+    height: 50px;
+    bottom: 4px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.chatbox-img {
+    width: 50px;
+    align-self: center;
+}
+
+/* typography */
+.logo {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-left: 25px;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#sidemenu li a {
+    color: #282828;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#sidemenu li a:hover,
+#sidemenu li a:focus {
+    color: #cd6858;
+    text-decoration: overline;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#sidemenu li .btn {
+    color: whitesmoke;
+}
+
+section h1 {
+    font-size: 66px;
+    font-weight: 400;
+    margin: 0 25px;
+    padding: 56px 0;
+    text-align: center;
+}
+
+.caption p {
+    font-size: 2rem;
+    /* margin-bottom: 0; */
+    margin-top: 0;
+}
+    
+}
