@@ -4,3 +4,4 @@
 - Semantic HTML
 - CSS3
 - JS
+- [Netlify] (https://magical-zuccutto-d73c0d.netlify.app/)
